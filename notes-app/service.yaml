@@ -10,8 +10,8 @@ spec:
    app: notes-app
  ports:
    # Port Map
- - port: 80
-   targetPort: 30080
+ - port: 30080
+   targetPort: 3000
    protocol: TCP
  #type: LoadBalancer
  type: NodePort

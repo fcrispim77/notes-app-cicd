@@ -22,4 +22,4 @@ spec:
             cpu: "100m"
         imagePullPolicy: IfNotPresent
         ports:
-        - containerPort: 30080
+        - containerPort: 3000
