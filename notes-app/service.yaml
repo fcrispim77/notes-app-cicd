@@ -8,6 +8,8 @@ spec:
  selector:
    # Selector for Pods
    app: notes-app
+ externalIPs:
+ - 10.0.0.1
  ports:
    # Port Map
  - port: 30080
