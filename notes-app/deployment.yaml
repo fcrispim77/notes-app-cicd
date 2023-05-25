@@ -19,7 +19,7 @@ spec:
         image: pavansa/notes-app
         resources:
           requests:
-            cpu: "1000m"
+            cpu: "5m"
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 3000
